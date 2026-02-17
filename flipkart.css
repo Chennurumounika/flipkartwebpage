@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f1f3f6;
+}
+
+
+/* ================= NAVBAR ================= */
+
+#nav-Container {
+    background-color: #2874f0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 20px;
+    color: white;
+}
+
+.logo img {
+    cursor: pointer;
+}
+
+.search {
+    background-color: white;
+    width: 40%;
+    padding: 8px 15px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.search i {
+    color: gray;
+    margin-right: 10px;
+}
+
+.search input {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 14px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+/* ================= HEADER CATEGORY ================= */
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding: 15px 0;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+header div {
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+header img {
+    height: 60px;
+    width: 60px;
+}
+
+header div:hover {
+    color: #2874f0;
+}
+
+
+/* ================= MAIN BANNER ================= */
+
+.d {
+    margin: 10px;
+}
+
+.img-1 {
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+/* ================= TOP DEALS SECTION ================= */
+
+.topDeals {
+    background-color: white;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.topDeals h1 {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.top main,
+.phone main {
+    text-align: center;
+    padding: 15px;
+    width: 18%;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.top main:hover,
+.phone main:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+    border-radius: 5px;
+}
+
+.top img,
+.phone img {
+    height: 110px;
+    margin-bottom: 10px;
+}
+
+.top p,
+.phone p {
+    font-size: 14px;
+}
+
+
+/* ================= SMARTPHONES SECTION ================= */
+
+.phone {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+/* ================= 3 IMAGE SECTION ================= */
+
+.a1 {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    gap: 10px;
+}
+
+.a11 img {
+    border-radius: 5px;
+}
+
+
+/* ================= FOOTER ================= */
+
+.fk-footer {
+    background-color: #172337;
+    color: white;
+    padding: 40px 20px 20px;
+    font-size: 14px;
+}
+
+.fk-footer-top {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.fk-col {
+    width: 150px;
+}
+
+.fk-col h5 {
+    margin-bottom: 10px;
+    color: #878787;
+    font-size: 12px;
+}
+
+.fk-col p {
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.fk-col p:hover {
+    text-decoration: underline;
+}
+
+.fk-address {
+    width: 250px;
+}
+
+.fk-social {
+    margin-top: 10px;
+}
+
+.fk-social i {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.fk-footer-bottom {
+    border-top: 1px solid #3a4553;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 13px;
+}
+
+.fk-footer-bottom div {
+    cursor: pointer;
+}
